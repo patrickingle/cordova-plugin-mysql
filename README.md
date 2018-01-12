@@ -5,5 +5,5 @@ Using the node module mysql, immplementing MySQL direct connectivity within a Co
 
 ## Installation
 
-    cordova plugin add https://github.com/patrickingle/cordova-plugin-file.git
+    cordova plugin add https://github.com/patrickingle/cordova-plugin-mysql.git
 

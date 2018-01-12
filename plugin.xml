@@ -21,5 +21,16 @@
             </feature>
         </config-file>
     </platform>
-
+    
+    <!-- OSX -->
+    <platform name="osx">
+    </platform>
+    
+    <!-- ios -->
+    <platform name="ios">
+    </platform>
+    
+    <!-- android -->
+    <platform name="android">
+    </platform>
 </plugin>
