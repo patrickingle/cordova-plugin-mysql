@@ -11,6 +11,7 @@
     <js-module src="www/mainHandle.js" name="mainHandle">
         <clobbers target="MySQLStorage" />
     </js-module>
+    <hook type="before_plugin_install" src="scripts/beforeInstall.js" />
 
     <!-- Browser -->
     <platform name="browser">
