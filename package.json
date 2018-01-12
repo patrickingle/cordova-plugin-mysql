@@ -1,6 +1,6 @@
 {
     "_from": "cordova-plugin-mysql",
-    "_id": "cordova-plugin-mysql@1.0.0",
+    "_id": "cordova-plugin-mysql@1.0.1",
     "_inBundle": false,
     "_integrity": {},
     "_location": "/cordova-plugin-mysql",
@@ -8,13 +8,17 @@
     "cordova": {
         "id": "cordova-plugin-mysql",
         "platforms": [
-          "browser"
+          "browser",
+          "osx",
+          "ios",
+          "android",
+          "windows"
         ]
       },
       "deprecated": false,
-      "description": "MySQL for Android, iOS and Windows",
+      "description": "MySQL for Cordova",
       "devDependencies": {
-        "jshint": "^2.9.1"
+        "mysql": "^2.15.0"
       },
       "homepage": "https://#",
       "keywords": [
