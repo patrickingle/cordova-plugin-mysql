@@ -24,13 +24,28 @@
     
     <!-- OSX -->
     <platform name="osx">
+        <config-file target="config.xml" parent="/*">
+            <feature name="MySQLStorage">
+                <param name="browser-package" value="MySQLStorage" />
+            </feature>
+        </config-file>
     </platform>
     
     <!-- ios -->
     <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="MySQLStorage">
+                <param name="browser-package" value="MySQLStorage" />
+            </feature>
+        </config-file>
     </platform>
     
     <!-- android -->
     <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="MySQLStorage">
+                <param name="browser-package" value="MySQLStorage" />
+            </feature>
+        </config-file>
     </platform>
 </plugin>
