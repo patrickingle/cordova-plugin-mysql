@@ -52,5 +52,5 @@ MySQLStorageHandle.prototype.query = function(sql) {
     });
 }
 
-var storageMySQLHandle = new MySQLStorageHandle();
-module.exports = storageMySQLHandle;
+//var storageMySQLHandle = new MySQLStorageHandle();
+module.exports = new MySQLStorageHandle();
