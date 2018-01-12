@@ -1,0 +1,36 @@
+{
+    "_from": "cordova-plugin-mysql",
+    "_id": "cordova-plugin-mysql@1.0.0",
+    "_inBundle": false,
+    "_integrity": {},
+    "_location": "/cordova-plugin-mysql",
+    "_phantomChildren": {},
+    "cordova": {
+        "id": "cordova-plugin-mysql",
+        "platforms": [
+          "browser"
+        ]
+      },
+      "deprecated": false,
+      "description": "MySQL for Android, iOS and Windows",
+      "devDependencies": {
+        "jshint": "^2.9.1"
+      },
+      "homepage": "https://#",
+      "keywords": [
+        "cordova",
+        "device",
+        "storage"
+      ],
+      "license": "Apache-2.0",
+      "name": "cordova-plugin-mysql",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/patrickingle/cordova-plugin-mysql.git"
+      },
+      "scripts": {
+        "jshint": "jshint www && jshint tests",
+        "test": "npm run jshint"
+      },
+      "version": "1.0.1"
+}

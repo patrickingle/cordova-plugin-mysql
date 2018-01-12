@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-mysql"
+    version="1.0.1">
+    <name>MySQL</name>
+    <description>MySQL for Browser, Android and iOS</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova, mysql</keywords>
+    <repo></repo>
+    <issue></issue>
+    <js-module src="www/mainHandle.js" name="mainHandle">
+        <clobbers target="MySQLStorage" />
+    </js-module>
+
+    <!-- Browser -->
+    <platform name="browser">
+        <config-file target="config.xml" parent="/*">
+            <feature name="MySQLStorage">
+                <param name="browser-package" value="MySQLStorage" />
+            </feature>
+        </config-file>
+    </platform>
+
+</plugin>
